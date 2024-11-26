@@ -1,0 +1,291 @@
+2024-11-24 00:01:23,355 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m59s438ms).
+2024-11-24 00:21:53,334 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m29s734ms).
+2024-11-24 00:25:44,459 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 00:25:44,511 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 00:25:44,522 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 00:59:45,093 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91509 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 00:59:45,093 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91509 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 00:59:45,096 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 00:59:45,096 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 00:59:45,823 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 00:59:45,881 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2024-11-24 00:59:46,307 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 00:59:46,346 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 00:59:46,488 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 00:59:46,561 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 00:59:46,714 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 00:59:46,725 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 00:59:47,262 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 00:59:47,268 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 00:59:47,775 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 00:59:47,781 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 00:59:47,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 00:59:47,782 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 00:59:47,868 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 00:59:47,868 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2741 ms
+2024-11-24 00:59:48,306 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55a29589, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d5fea64, org.springframework.security.web.context.SecurityContextPersistenceFilter@32182bf8, org.springframework.security.web.header.HeaderWriterFilter@4d1f168, org.springframework.web.filter.CorsFilter@4a7427f9, org.springframework.security.web.authentication.logout.LogoutFilter@202b5293, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@7b6b8cea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b8cdc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79e28671, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@155767a7, org.springframework.security.web.session.SessionManagementFilter@4e312811, org.springframework.security.web.access.ExceptionTranslationFilter@2bd158ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@255482cb]
+2024-11-24 00:59:48,381 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 00:59:48,859 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 00:59:48,909 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 00:59:48,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 00:59:48,941 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.159 seconds (JVM running for 5.215)
+2024-11-24 00:59:48,941 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.159 seconds (JVM running for 5.215)
+2024-11-24 00:59:49,546 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 00:59:49,547 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 00:59:49,549 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2024-11-24 01:01:52,291 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:01:52,302 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 01:01:52,334 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 01:01:57,497 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91555 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:01:57,497 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91555 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:01:57,499 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:01:57,499 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:01:58,191 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:01:58,245 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:01:58,642 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:01:58,677 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:01:58,809 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:01:58,874 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:01:59,026 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:01:59,038 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:01:59,566 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:01:59,572 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:02:00,070 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:02:00,077 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:02:00,078 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:02:00,078 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:02:00,173 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:02:00,173 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2637 ms
+2024-11-24 01:02:00,588 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6779af40, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cf166db, org.springframework.security.web.context.SecurityContextPersistenceFilter@2530baf6, org.springframework.security.web.header.HeaderWriterFilter@5e1e19af, org.springframework.web.filter.CorsFilter@68303aad, org.springframework.security.web.authentication.logout.LogoutFilter@6fd07a56, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@362e6fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26bbbe9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ebd6a0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37a36194, org.springframework.security.web.session.SessionManagementFilter@ad6255e, org.springframework.security.web.access.ExceptionTranslationFilter@260043d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28effa3f]
+2024-11-24 01:02:00,954 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:02:01,524 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:02:01,573 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:02:01,590 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:02:01,607 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.453 seconds (JVM running for 5.48)
+2024-11-24 01:02:01,607 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.453 seconds (JVM running for 5.48)
+2024-11-24 01:02:02,144 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:02:02,144 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:02:02,145 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 1 ms
+2024-11-24 01:03:24,633 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s186ms).
+2024-11-24 01:09:03,933 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:09:03,959 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 01:09:03,998 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 01:09:11,445 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91729 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:09:11,445 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91729 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:09:11,450 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:09:11,450 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:09:12,303 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:09:12,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:09:12,809 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:09:12,847 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:09:12,952 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:09:13,014 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:09:13,175 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:09:13,187 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:09:13,697 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:09:13,703 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:09:14,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:09:14,199 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:09:14,200 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:09:14,201 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:09:14,290 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:09:14,290 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2782 ms
+2024-11-24 01:09:28,684 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@73dc7db0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a3a6216, org.springframework.security.web.context.SecurityContextPersistenceFilter@753c7411, org.springframework.security.web.header.HeaderWriterFilter@6d70e68b, org.springframework.web.filter.CorsFilter@319ea996, org.springframework.security.web.authentication.logout.LogoutFilter@1ebb36df, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@3533d790, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@499445d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b58f639, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1de398c3, org.springframework.security.web.session.SessionManagementFilter@35bf6dba, org.springframework.security.web.access.ExceptionTranslationFilter@16a14076, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f7bf0f6]
+2024-11-24 01:09:28,769 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:09:29,298 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:09:29,350 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:09:29,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:09:29,382 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 18.329 seconds (JVM running for 19.266)
+2024-11-24 01:09:29,382 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 18.329 seconds (JVM running for 19.266)
+2024-11-24 01:09:29,737 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:09:29,737 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:09:29,738 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 1 ms
+2024-11-24 01:10:37,045 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s754ms).
+2024-11-24 01:11:11,189 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:11:11,207 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 01:11:11,225 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 01:11:17,841 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91769 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:11:17,841 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91769 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:11:17,843 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:11:17,843 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:11:18,510 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:11:18,554 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:11:18,958 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:11:18,990 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:11:19,084 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:11:19,143 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:11:19,263 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:11:19,274 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:11:19,763 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:11:19,770 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:11:20,244 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:11:20,259 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:11:20,260 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:11:20,260 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:11:20,340 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:11:20,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2464 ms
+2024-11-24 01:11:25,988 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74159dc9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53086bdc, org.springframework.security.web.context.SecurityContextPersistenceFilter@21399e53, org.springframework.security.web.header.HeaderWriterFilter@2835b3d1, org.springframework.web.filter.CorsFilter@254210b1, org.springframework.security.web.authentication.logout.LogoutFilter@22942eff, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@641255d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260043d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3338d29d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@600a1270, org.springframework.security.web.session.SessionManagementFilter@4d1f168, org.springframework.security.web.access.ExceptionTranslationFilter@1d722bff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@662b199]
+2024-11-24 01:11:26,086 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:11:26,622 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:11:26,675 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:11:26,689 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:11:26,706 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 9.186 seconds (JVM running for 9.93)
+2024-11-24 01:11:26,706 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 9.186 seconds (JVM running for 9.93)
+2024-11-24 01:11:27,013 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:11:27,013 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:11:27,017 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 4 ms
+2024-11-24 01:20:19,625 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91896 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:20:19,625 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91896 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:20:19,627 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:20:19,627 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:20:20,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:20:20,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:20:20,806 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:20:20,841 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:20:20,946 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:20:21,011 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:20:21,159 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:20:21,171 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:20:21,687 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:20:21,694 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:20:22,186 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:20:22,192 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:20:22,193 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:20:22,194 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:20:22,273 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:20:22,274 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2616 ms
+2024-11-24 01:20:22,692 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f3565c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64a8851a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e8b36af, org.springframework.security.web.header.HeaderWriterFilter@4402ed61, org.springframework.web.filter.CorsFilter@5b27d03d, org.springframework.security.web.authentication.logout.LogoutFilter@6ebf9c2d, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@6abaa14b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cd079fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37823482, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@687d31a9, org.springframework.security.web.session.SessionManagementFilter@99948fe, org.springframework.security.web.access.ExceptionTranslationFilter@2530baf6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55a29589]
+2024-11-24 01:20:22,763 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:20:23,250 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:20:23,299 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:20:23,312 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:20:23,328 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 3.988 seconds (JVM running for 4.883)
+2024-11-24 01:20:23,328 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 3.988 seconds (JVM running for 4.883)
+2024-11-24 01:20:23,788 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:20:23,788 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:20:23,792 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 3 ms
+2024-11-24 01:23:42,880 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:23:42,896 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 01:23:42,929 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 01:24:28,166 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91989 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:24:28,166 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 91989 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:24:28,169 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:24:28,169 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:24:28,897 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:24:28,951 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:24:29,347 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:24:29,382 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:24:29,493 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:24:29,555 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:24:29,706 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:24:29,717 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:24:30,224 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:24:30,230 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:24:30,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:24:30,727 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:24:30,728 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:24:30,729 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:24:30,823 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:24:30,823 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2612 ms
+2024-11-24 01:24:31,240 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28effa3f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d1da00b, org.springframework.security.web.context.SecurityContextPersistenceFilter@77511e9c, org.springframework.security.web.header.HeaderWriterFilter@42d96745, org.springframework.web.filter.CorsFilter@2db4a84a, org.springframework.security.web.authentication.logout.LogoutFilter@37823482, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@600a1270, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75aeec0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b8cdc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cef5fc9, org.springframework.security.web.session.SessionManagementFilter@6e757f39, org.springframework.security.web.access.ExceptionTranslationFilter@930911e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21abd3a3]
+2024-11-24 01:24:31,308 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:24:31,788 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:24:31,836 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:24:31,850 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:24:31,866 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.116 seconds (JVM running for 5.017)
+2024-11-24 01:24:31,866 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.116 seconds (JVM running for 5.017)
+2024-11-24 01:24:32,285 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:24:32,285 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:24:32,288 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
+2024-11-24 01:29:23,399 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s752ms).
+2024-11-24 01:44:08,713 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:44:08,734 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 01:44:08,767 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 01:44:15,366 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 92470 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:44:15,366 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 92470 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 01:44:15,369 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:44:15,369 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 01:44:16,204 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 01:44:16,265 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2024-11-24 01:44:16,723 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 01:44:16,758 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 01:44:16,859 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 01:44:16,918 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 01:44:17,077 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 01:44:17,088 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 01:44:17,614 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 01:44:17,620 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 01:44:18,133 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 01:44:18,139 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:44:18,140 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 01:44:18,140 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 01:44:18,227 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 01:44:18,227 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2824 ms
+2024-11-24 01:44:18,676 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37a36194, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d0acb8f, org.springframework.security.web.context.SecurityContextPersistenceFilter@72ad577b, org.springframework.security.web.header.HeaderWriterFilter@81a56b2, org.springframework.web.filter.CorsFilter@6abaa14b, org.springframework.security.web.authentication.logout.LogoutFilter@5cd2adc7, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@7cf166db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c31b6c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5605a59b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b60be3, org.springframework.security.web.session.SessionManagementFilter@26bbbe9e, org.springframework.security.web.access.ExceptionTranslationFilter@79e28671, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cef5fc9]
+2024-11-24 01:44:18,759 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 01:44:19,268 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 01:44:19,318 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 01:44:19,333 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 01:44:19,350 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.338 seconds (JVM running for 5.309)
+2024-11-24 01:44:19,350 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.338 seconds (JVM running for 5.309)
+2024-11-24 01:44:19,925 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 01:44:19,926 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 01:44:19,927 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2024-11-24 02:11:43,289 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s843ms).
+2024-11-24 02:34:29,801 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 02:34:29,829 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-24 02:34:29,845 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-24 02:34:40,187 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 93411 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 02:34:40,187 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 93411 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-24 02:34:40,189 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 02:34:40,189 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-24 02:34:40,872 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-24 02:34:40,918 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2024-11-24 02:34:41,327 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-24 02:34:41,361 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-24 02:34:41,468 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-24 02:34:41,531 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-24 02:34:41,822 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-24 02:34:41,834 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-24 02:34:42,366 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-24 02:34:42,373 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-24 02:34:42,861 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-24 02:34:42,867 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-24 02:34:42,868 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-24 02:34:42,868 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-24 02:34:42,957 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-24 02:34:42,957 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2737 ms
+2024-11-24 02:34:43,362 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47d0195b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6de2344a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4960b819, org.springframework.security.web.header.HeaderWriterFilter@108fd5d5, org.springframework.web.filter.CorsFilter@577dac16, org.springframework.security.web.authentication.logout.LogoutFilter@21399e53, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@2723b0d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@192aeae2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ee1c29a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18ed9480, org.springframework.security.web.session.SessionManagementFilter@4fe3199d, org.springframework.security.web.access.ExceptionTranslationFilter@25c98637, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40625ac6]
+2024-11-24 02:34:43,437 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-24 02:34:43,928 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-24 02:34:43,977 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-24 02:34:43,991 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-24 02:34:44,008 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.113 seconds (JVM running for 5.525)
+2024-11-24 02:34:44,008 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.113 seconds (JVM running for 5.525)
+2024-11-24 02:34:44,532 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-24 02:34:44,533 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(5)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-24 02:34:44,536 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(5)-127.0.0.1] Completed initialization in 3 ms
+2024-11-24 03:27:31,008 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m13s421ms).
+2024-11-24 04:55:47,902 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m16s964ms).
+2024-11-24 05:56:56,234 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m8s333ms).
+2024-11-24 07:39:53,089 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m56s855ms).
+2024-11-24 07:59:01,891 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m8s801ms).
+2024-11-24 09:32:15,415 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m13s524ms).
+2024-11-24 10:15:23,047 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m7s632ms).
+2024-11-24 10:24:54,642 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m31s591ms).
+2024-11-24 12:07:53,459 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m28s358ms).
+2024-11-24 12:32:58,920 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m5s106ms).
+2024-11-24 12:49:33,630 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s495ms).
+2024-11-24 13:27:59,997 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s394ms).
+2024-11-24 13:30:41,050 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s960ms).
+2024-11-24 14:26:54,744 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s186ms).
+2024-11-24 16:09:52,997 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m28s80ms).
+2024-11-24 17:39:10,311 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m17s323ms).
+2024-11-24 18:45:30,282 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m19s970ms).
+2024-11-24 19:46:33,776 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m3s494ms).
+2024-11-24 20:47:37,278 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m3s502ms).
+2024-11-24 21:54:33,420 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m56s140ms).
+2024-11-24 21:55:47,467 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s39ms).
+2024-11-24 23:13:01,832 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s513ms).
+2024-11-24 23:29:47,979 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m46s157ms).
+2024-11-24 23:48:29,472 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m41s456ms).

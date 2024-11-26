@@ -1,0 +1,271 @@
+2024-03-10 00:25:40,289 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65314 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:25:40,289 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65314 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:25:40,299 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:25:40,299 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:25:40,802 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10 00:25:40,832 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2024-03-10 00:25:41,151 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-03-10 00:25:41,155 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:25:41,156 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-10 00:25:41,156 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-10 00:25:41,205 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-10 00:25:41,205 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 879 ms
+2024-03-10 00:25:41,349 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-10 00:25:41,459 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-10 00:25:41,484 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10 00:25:41,511 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-10 00:25:41,585 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-10 00:25:41,642 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-10 00:25:41,899 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-10 00:25:41,903 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 00:25:43,044 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e312811, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71f042b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@cce672c, org.springframework.security.web.header.HeaderWriterFilter@325a781c, org.springframework.security.web.csrf.CsrfFilter@2fd409c1, org.springframework.security.web.authentication.logout.LogoutFilter@2f09907, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@28532753, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@35d145fb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@198a0416, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@77511e9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f31b991, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46bff388, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32182bf8, org.springframework.security.web.session.SessionManagementFilter@6ae5e1cf, org.springframework.security.web.access.ExceptionTranslationFilter@a0e35c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4abb4041]
+2024-03-10 00:25:43,071 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10 00:25:43,391 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-10 00:25:43,422 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:25:43,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-03-10 00:25:43,441 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 3.431 seconds (JVM running for 4.026)
+2024-03-10 00:25:43,441 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 3.431 seconds (JVM running for 4.026)
+2024-03-10 00:25:43,594 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-192.168.1.30] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 00:25:43,594 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.30] Initializing Servlet 'dispatcherServlet'
+2024-03-10 00:25:43,596 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-192.168.1.30] Completed initialization in 2 ms
+2024-03-10 00:25:46,351 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 00:25:46,355 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-10 00:25:46,361 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-03-10 00:27:20,884 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65337 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:27:20,884 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65337 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:27:20,886 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:27:20,886 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:27:21,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10 00:27:21,394 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+2024-03-10 00:27:21,684 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-03-10 00:27:21,688 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:27:21,689 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-10 00:27:21,689 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-10 00:27:21,735 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-10 00:27:21,735 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 826 ms
+2024-03-10 00:27:21,883 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-10 00:27:21,973 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-10 00:27:21,999 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10 00:27:22,021 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-10 00:27:22,089 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-10 00:27:22,142 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-10 00:27:22,401 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-10 00:27:22,405 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 00:27:22,954 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@267a8777, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@175c26ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@209d0037, org.springframework.security.web.header.HeaderWriterFilter@6c569caf, org.springframework.security.web.csrf.CsrfFilter@7cc842b0, org.springframework.security.web.authentication.logout.LogoutFilter@1677f98b, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@26723525, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@11c40a65, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@524418a2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@623bdc46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b39bee2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20ddc780, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@411576c7, org.springframework.security.web.session.SessionManagementFilter@5f6ba085, org.springframework.security.web.access.ExceptionTranslationFilter@2ddb6c71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@141c66db]
+2024-03-10 00:27:22,982 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10 00:27:23,293 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-10 00:27:23,323 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:27:23,332 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-03-10 00:27:23,342 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 2.694 seconds (JVM running for 3.113)
+2024-03-10 00:27:23,342 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 2.694 seconds (JVM running for 3.113)
+2024-03-10 00:27:23,547 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 00:27:23,547 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-03-10 00:27:23,550 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 3 ms
+2024-03-10 00:31:41,308 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s503ms).
+2024-03-10 00:34:07,068 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-9090-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [/nesous] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: principal cannot be null] with root cause
+java.lang.IllegalArgumentException: principal cannot be null
+	at org.springframework.util.Assert.notNull(Assert.java:201)
+	at org.springframework.security.oauth2.client.OAuth2AuthorizeRequest$Builder.build(OAuth2AuthorizeRequest.java:219)
+	at nesous.digital.services.familyBank.infra.jwt.TokenRefresher.refreshAccessToken(TokenRefresher.java:32)
+	at nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.api.UserContextImpl.mapToUser(UserContextImpl.java:73)
+	at nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.api.UserContextImpl.getContext(UserContextImpl.java:53)
+	at nesous.digital.services.familyBank.boundedContexts.user.hexagon.port.input.usecase.AuthenticateUser.login(AuthenticateUser.java:14)
+	at nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.api.UsersController.listUsers(UsersController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:58)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:237)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:223)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-03-10 00:35:00,195 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 00:35:00,214 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-03-10 00:35:00,234 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-03-10 00:35:05,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65432 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:35:05,009 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 65432 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 00:35:05,011 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:35:05,011 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 00:35:05,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10 00:35:05,591 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2024-03-10 00:35:05,905 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-03-10 00:35:05,909 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:35:05,909 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-10 00:35:05,909 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-10 00:35:05,960 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-10 00:35:05,961 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 925 ms
+2024-03-10 00:35:06,114 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-10 00:35:06,238 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-10 00:35:06,265 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10 00:35:06,291 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-10 00:35:06,366 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-10 00:35:06,420 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-10 00:35:06,682 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-10 00:35:06,686 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 00:35:07,234 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2835b3d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20e9b10b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fc4b8d6, org.springframework.security.web.header.HeaderWriterFilter@6e5a77ef, org.springframework.security.web.csrf.CsrfFilter@30cb489a, org.springframework.security.web.authentication.logout.LogoutFilter@6b3da23f, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@72851503, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@690c3b1f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@787b7796, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2c485b3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dbc66f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d381eae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a00d591, org.springframework.security.web.session.SessionManagementFilter@13f17b8f, org.springframework.security.web.access.ExceptionTranslationFilter@121c1a08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13e5c53c]
+2024-03-10 00:35:07,258 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10 00:35:07,574 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-10 00:35:07,607 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-03-10 00:35:07,617 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-03-10 00:35:07,631 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 2.892 seconds (JVM running for 3.366)
+2024-03-10 00:35:07,631 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 2.892 seconds (JVM running for 3.366)
+2024-03-10 00:35:08,213 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 00:35:08,214 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-03-10 00:35:08,217 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 3 ms
+2024-03-10 01:00:12,019 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s715ms).
+2024-03-10 01:40:54,173 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m11s218ms).
+2024-03-10 02:16:14,958 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m20s796ms).
+2024-03-10 02:21:28,107 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s152ms).
+2024-03-10 02:48:50,281 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s54ms).
+2024-03-10 03:52:47,651 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m57s372ms).
+2024-03-10 04:59:50,475 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m2s824ms).
+2024-03-10 06:08:04,356 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m13s881ms).
+2024-03-10 07:17:22,654 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m18s298ms).
+2024-03-10 08:25:58,289 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m35s635ms).
+2024-03-10 08:29:09,702 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s412ms).
+2024-03-10 08:38:42,460 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s739ms).
+2024-03-10 10:39:58,636 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m37s356ms).
+2024-03-10 10:43:52,400 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m53s782ms).
+2024-03-10 10:45:21,085 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s675ms).
+2024-03-10 10:56:08,408 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m47s320ms).
+2024-03-10 13:17:13,334 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m4s326ms).
+2024-03-10 14:22:24,340 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m11s30ms).
+2024-03-10 15:26:23,571 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m59s231ms).
+2024-03-10 15:43:48,071 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m24s496ms).
+2024-03-10 15:46:35,191 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s711ms).
+2024-03-10 16:04:49,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 68100 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 16:04:49,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 68100 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-03-10 16:04:49,920 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 16:04:49,920 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-10 16:04:50,401 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-10 16:04:50,430 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2024-03-10 16:04:50,774 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-03-10 16:04:50,778 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-03-10 16:04:50,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-10 16:04:50,778 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-10 16:04:50,828 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-10 16:04:50,828 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 888 ms
+2024-03-10 16:04:50,991 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-10 16:04:51,019 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-10 16:04:51,098 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-10 16:04:51,142 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-03-10 16:04:51,342 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-03-10 16:04:51,351 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-10 16:04:51,951 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-10 16:04:51,956 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-10 16:04:53,515 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@240e61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76efa2b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b0fc8b, org.springframework.security.web.header.HeaderWriterFilter@33ce081a, org.springframework.security.web.csrf.CsrfFilter@69e8f7a5, org.springframework.security.web.authentication.logout.LogoutFilter@5b5d6f9c, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@3891db3a, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@4a778943, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55b78dad, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2027d56f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cbaabfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48614fb3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44c54463, org.springframework.security.web.session.SessionManagementFilter@6e21c6ed, org.springframework.security.web.access.ExceptionTranslationFilter@1d5fc340, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ef0bc5b]
+2024-03-10 16:04:53,559 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-10 16:04:53,890 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-10 16:04:53,921 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-03-10 16:04:53,932 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-03-10 16:04:53,943 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.236 seconds (JVM running for 4.63)
+2024-03-10 16:04:53,943 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.236 seconds (JVM running for 4.63)
+2024-03-10 16:04:54,183 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 16:04:54,185 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-03-10 16:04:54,186 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 1 ms
+2024-03-10 17:12:10,963 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m49s402ms).
+2024-03-10 18:03:32,036 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m21s166ms).
+2024-03-10 19:11:58,114 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m26s78ms).
+2024-03-10 20:16:11,184 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m13s70ms).
+2024-03-10 21:19:46,020 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m34s836ms).
+2024-03-10 21:56:32,998 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m46s979ms).
+2024-03-10 23:01:34,651 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m1s652ms).

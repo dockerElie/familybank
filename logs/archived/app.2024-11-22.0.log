@@ -1,0 +1,36 @@
+2024-11-22 00:13:06,211 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 00:13:06,272 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-22 00:13:06,336 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-22 17:49:06,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 75418 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-22 17:49:06,633 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 75418 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-22 17:49:06,636 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-22 17:49:06,636 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-22 17:49:07,294 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 17:49:07,358 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2024-11-22 17:49:07,774 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 17:49:07,810 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-22 17:49:07,915 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-22 17:49:07,977 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-22 17:49:08,145 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-22 17:49:08,157 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-22 17:49:08,697 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-22 17:49:08,703 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 17:49:09,228 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-22 17:49:09,235 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-22 17:49:09,236 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-22 17:49:09,236 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-22 17:49:09,321 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-22 17:49:09,322 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2657 ms
+2024-11-22 17:49:09,743 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70c99e13, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@321558f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@72851503, org.springframework.security.web.header.HeaderWriterFilter@7bbd944e, org.springframework.web.filter.CorsFilter@6a9f8c2f, org.springframework.security.web.authentication.logout.LogoutFilter@4e312811, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@6d96a895, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d722bff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72c29d87, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@662b199, org.springframework.security.web.session.SessionManagementFilter@1181526e, org.springframework.security.web.access.ExceptionTranslationFilter@535aa7c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@463746eb]
+2024-11-22 17:49:09,817 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-22 17:49:10,308 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-22 17:49:10,357 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-22 17:49:10,371 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-22 17:49:10,388 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.076 seconds (JVM running for 5.127)
+2024-11-22 17:49:10,388 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.076 seconds (JVM running for 5.127)
+2024-11-22 17:49:10,677 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 17:49:10,681 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-22 17:49:10,684 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 3 ms
+2024-11-22 17:49:17,700 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 17:49:17,715 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-22 17:49:17,748 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

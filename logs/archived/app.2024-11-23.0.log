@@ -1,0 +1,69 @@
+2024-11-23 16:28:01,906 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 86943 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-23 16:28:01,906 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 86943 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-23 16:28:01,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-23 16:28:01,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-23 16:28:02,071 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [nesous.digital.services.familyBank.FamilyBankApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userMapper' for bean class [nesous.digital.services.familyBank.boundedContexts.user.adapter.secondary.database.mappers.UserMapper] conflicts with existing, non-compatible bean definition of same name and class [nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.mappers.UserPresenterMapper]
+2024-11-23 16:28:02,092 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [nesous.digital.services.familyBank.FamilyBankApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userMapper' for bean class [nesous.digital.services.familyBank.boundedContexts.user.adapter.secondary.database.mappers.UserMapper] conflicts with existing, non-compatible bean definition of same name and class [nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.mappers.UserPresenterMapper]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:748)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at nesous.digital.services.familyBank.FamilyBankApplication.main(FamilyBankApplication.java:25)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userMapper' for bean class [nesous.digital.services.familyBank.boundedContexts.user.adapter.secondary.database.mappers.UserMapper] conflicts with existing, non-compatible bean definition of same name and class [nesous.digital.services.familyBank.boundedContexts.user.adapter.primary.mappers.UserPresenterMapper]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174)
+	... 13 common frames omitted
+2024-11-23 16:31:00,327 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 86991 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-23 16:31:00,327 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyBankApplication using Java 17.0.7 on MacBook-Air-de-Eliewear.local with PID 86991 (/Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank/target/classes started by elie-michelnononouagong in /Users/elie-michelnononouagong/Documents/NDS_Projects/FamilyBank)
+2024-11-23 16:31:00,330 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-23 16:31:00,330 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-23 16:31:01,029 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23 16:31:01,093 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2024-11-23 16:31:01,490 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23 16:31:01,525 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-11-23 16:31:01,633 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-23 16:31:01,695 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-23 16:31:01,859 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-23 16:31:01,871 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-11-23 16:31:02,408 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-23 16:31:02,415 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23 16:31:02,932 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2024-11-23 16:31:02,939 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2024-11-23 16:31:02,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2024-11-23 16:31:02,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-11-23 16:31:03,049 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-11-23 16:31:03,049 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2678 ms
+2024-11-23 16:31:03,444 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@40ecead5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@641255d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fae4c3b, org.springframework.security.web.header.HeaderWriterFilter@192aeae2, org.springframework.web.filter.CorsFilter@75d61b62, org.springframework.security.web.authentication.logout.LogoutFilter@3e574f9c, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@706c2726, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28532753, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21399e53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74159dc9, org.springframework.security.web.session.SessionManagementFilter@20e9b10b, org.springframework.security.web.access.ExceptionTranslationFilter@4960b819, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70c99e13]
+2024-11-23 16:31:03,517 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23 16:31:04,000 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-11-23 16:31:04,048 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2024-11-23 16:31:04,066 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path '/nesous'
+2024-11-23 16:31:04,083 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.093 seconds (JVM running for 4.947)
+2024-11-23 16:31:04,083 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyBankApplication in 4.093 seconds (JVM running for 4.947)
+2024-11-23 16:31:04,510 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23 16:31:04,510 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-11-23 16:31:04,512 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2024-11-23 17:49:00,579 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m58s428ms).
+2024-11-23 17:54:28,038 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s374ms).
+2024-11-23 19:16:06,180 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m37s807ms).
+2024-11-23 20:10:15,764 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m9s607ms).
+2024-11-23 20:29:01,438 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m45s674ms).
+2024-11-23 20:33:35,825 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s383ms).
+2024-11-23 21:35:10,327 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m4s325ms).
+2024-11-23 22:29:21,916 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m11s596ms).
+2024-11-23 23:49:53,857 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m31s936ms).

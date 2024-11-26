@@ -1,0 +1,26 @@
+package nesous.digital.services.familyBank.boundedContexts.shareKernel.commons;
+
+import nesous.digital.services.familyBank.boundedContexts.bankAccount.hexagon.port.input.exceptions.ValidationException;
+
+import java.util.function.BooleanSupplier;
+
+public class BaseGuard<T> {
+
+    protected final T value;
+
+    public BaseGuard(T value) {
+        this.value = value;
+    }
+
+    protected void against(BooleanSupplier tester, String message) {
+        if (tester.getAsBoolean()) {
+            throw new ValidationException(message);
+        }
+    }
+
+    public void againstNull(String message) {
+        if (value == null) {
+            throw new ValidationException(message);
+        }
+    }
+}
