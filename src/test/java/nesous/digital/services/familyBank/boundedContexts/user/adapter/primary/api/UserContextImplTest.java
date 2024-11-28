@@ -10,8 +10,13 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 
 import org.springframework.security.oauth2.jwt.Jwt;
+import org.springframework.security.oauth2.server.resource.authentication.AbstractOAuth2TokenAuthenticationToken;
+import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 
+import java.time.Instant;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.easymock.EasyMock.*;
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,10 +27,8 @@ public class UserContextImplTest {
 
     private final JwtAuthConvertor jwtAuthConvertor = createMock(JwtAuthConvertor.class);
 
-    private final Authentication authentication = createMock(Authentication.class);
+    private final JwtAuthenticationToken authentication = createMock(JwtAuthenticationToken.class);
     private final SecurityContextHolderAuthenticationProvider securityContextHolderAuthenticationProvider = createMock(SecurityContextHolderAuthenticationProvider.class);
-
-    private final static String CLAIM_TOKEN = "claim_token";
 
     @BeforeEach
     public void setUp() {
@@ -38,14 +41,32 @@ public class UserContextImplTest {
 
         // Arrange
         GrantedAuthority grantedAuthority = getGrantedAuthority();
-        Jwt jwt = mock(Jwt.class);
-        expect(securityContextHolderAuthenticationProvider.getAuthentication()).andReturn(authentication);
+        // Dummy token value
+        String tokenValue = "dummyTokenValue123";
+
+        // Issued at and expiration time
+        Instant issuedAt = Instant.now();
+        Instant expiresAt = issuedAt.plusSeconds(3600); // 1 hour validity
+
+        // Headers map
+        Map<String, Object> headers = new HashMap<>();
+        headers.put("alg", "RS256");
+        headers.put("typ", "JWT");
+
+        // Claims map
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("sub", "user123");
+        claims.put("role", "manager");
+        claims.put("email", "user@example.com");
+        Jwt jwt = new Jwt(tokenValue, issuedAt, expiresAt, headers, claims);
+        JwtAuthenticationToken jwtAuthenticationToken = new JwtAuthenticationToken(jwt, Collections.singletonList(grantedAuthority));
+
+        expect(securityContextHolderAuthenticationProvider.getAuthentication()).andReturn(jwtAuthenticationToken);
 
         expect(jwtAuthConvertor.convert(jwt)).andReturn(Collections.singletonList(grantedAuthority));
-        expect(jwt.getClaimAsString(anyString())).andReturn(CLAIM_TOKEN).anyTimes();
 
         // Act
-        replay(securityContextHolderAuthenticationProvider, jwtAuthConvertor);
+        replay(securityContextHolderAuthenticationProvider, jwtAuthConvertor, authentication);
 
         User user = userContext.getContext();
 
